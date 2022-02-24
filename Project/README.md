@@ -1,7 +1,9 @@
 Project on refrigerator.
 
 REPORT ON REFRIGERATOR :
-Module 2- Overview of embedded software, design,development processes and standards 
+
+Module 2- Overview of embedded software, design,development processes and standards.
+
 Submitted by: Sujata Naikar
 PS:99007669
 
@@ -33,9 +35,13 @@ There are mainly two types of requirements, namely;
 2.Components
 
     	The main components are,
+     
 1.The compressor.
+
 2.The condensor.
+
 3.The expansion device.
+
 4.The evaporator.
 
 •	Compressor – It is a hermitically sealed reciprocating pump. It is the heart of the refrigeration system. It pumps refrigerant gas to the different components to effect the refrigeration cycle. Their sizes are from 1/12 horse power to 1 horse power. R-12 refrigerant gas is commonly used. Newer environmentally friendly refrigerant gas such as R-134a is being used for the newer models.
@@ -62,12 +68,17 @@ Which includes,
 
 
 4.Architecture
+
 •	Design 
 
 •	PRIMARY BLOCK DIAGRAM OF REFRIGERATOR
+![image](https://user-images.githubusercontent.com/46914341/155455793-7c34ce98-d469-4c7d-b04c-2f281d5d825d.png)
+
 .
  
 The above figure gives the overall idea about how the system is arranged in the form of block diagram.
+![image](https://user-images.githubusercontent.com/46914341/155571420-a32a04ad-53f7-44e3-b089-cbeb78e57fa4.png)
+
 
  
 o	Embedded within a domestic Fridge compartment is an Evaporator, and
@@ -87,16 +98,18 @@ compartment.
 o	On evaporating, the refrigerant absorbs heat and
 subsequently reduces the enclosure temperature. 
 o	The warmer refrigerant is circulated to the outside of the compartment where the cycle repeats under thermal control.
+![image](https://user-images.githubusercontent.com/46914341/155571525-319d1565-7603-4bc9-a39f-5cc035aded26.png)
+
  
 Fig 1.1
 Schematic diagram of refrigerator.
-![image](https://user-images.githubusercontent.com/46914341/155455793-7c34ce98-d469-4c7d-b04c-2f281d5d825d.png)
 
-
+![image](https://user-images.githubusercontent.com/46914341/155571604-aaa36a55-807b-4b63-96d8-cb3ceefa2c90.png)
 
  
 Fig 1.2
 Freezer system, includes main components of a refrigerator system.
+
 
 Working of refrigerator:
 
@@ -118,18 +131,28 @@ temperature control cycle repeats.
 
 
 Testing
+
 The purpose of testing,
+
 1.Increases use-age life of the refrigerators.
-2.Save money & save energy as well with using star rating product or CE certified components
-3,Provide faith in product
-4.Improve safety of the product
-5.Improve performance as well
+
+2.Save money & save energy as well with using star rating product or CE certified components.
+
+3.Provide faith in product.
+
+4.Improve safety of the product.
+
+5.Improve performance as well.
+
 6.Provide safety to user
 
 
 There are various methods of testing,such as;
+
 1.Testing temperatures.
+
 2.Cool-down test.
+
 3. Stable running and power consumption test.
 
 
