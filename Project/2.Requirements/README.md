@@ -3,6 +3,8 @@ There are mainly two types of requirements,namely;
 1.High level requirements.
 
 2.Low level requirements.
+Table of Requirements.
+
 
  Though both the types of requirements are more or less depended on each other while functioning, according to the need and   usage there are termed as high and low.
 
