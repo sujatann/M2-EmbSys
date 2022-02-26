@@ -30,18 +30,19 @@
 
 # 2.Requirements.
 ## There are mainly two types of requirements;
-* 1.High level requirements.
-* 2.Low level requirements.
+1.High level requirements.
 
-Though both the types of requirements are more or less depended on each other while functioning, according to the need and  usage they are termed as high and low level requirements.
----
+2.Low level requirements.
+
+* Though both the types of requirements are more or less depended on each other while functioning, according to the need and  usage they are termed as high and low level requirements.
+
 ## 2.1 High level requirements.
 |   Id	   |          High level requirements.                              |
 |----------|------------------------------------------------------------------|
 |  HLR1	   | The system shall maintain the temperature in the required limit.|
 |  HLR2	   | The system shall have control over alarm conditions.|
 |  HLR3	   | The system shall be able to keep a track on compressor control.|
----
+
 
 ## 2.2 Low level requirements.
 |     Id	   |     Low level requirements.  |
@@ -59,32 +60,35 @@ Though both the types of requirements are more or less depended on each other wh
 
 ## 3.Components
 # The main components are,
-* 1.The compressor.
-* 2.The condensor.
-* 3.The expansion device.
+1.The compressor.
+
+2.The condensor.
+
+3.The expansion device.
+
 * 4.The evaporator.
 
 •Compressor – It is a hermitically sealed reciprocating pump. It is the heart of the refrigeration system. It pumps refrigerant gas to the different components to effect the refrigeration cycle. Their sizes are from 1/12 horse power to 1 horse power. R-12 refrigerant gas is commonly used. Newer environmentally friendly refrigerant gas such as R-134a is being used for the newer models.
 
 •Condenser –  It is made of serpentine copper tubes with aluminum fins. The combine heat of gas refrigerant from the evaporator and the heat of the compressed gas refrigerant from the compressor is being dissipated into the atmosphere, and changes the gas refrigerant into liquid refrigerant.
 
-
 •Expansion Valve – copper capillary tube, or "expansion valve", is widely used on refrigeration appliances. Their outside diameter is 2.5mm, and their length is between 8 feet to 12 feet. High pressure liquid refrigerant leaves the capillary tube into low-pressure low-temperature liquid refrigerant.
+
 •Evaporator – is a serpentine aluminum tubes with aluminum fins. It absorbs the heat in the freezing and refrigerating compartments and transfers it to the condenser. The low pressure liquid refrigerant turns to gas after absorbing the heat. And is ready to make its journey through the accumulator then to the compressor.
- Other components are;
+
+ * Other components are;
+ 
 •	Filter/dryer – It filters the dirt and iron particles from the refrigerant. Some filter Dryer have moisture absorbent materials like, Silica gel or synthetic silicates, which removes moisture from the refrigerant. The filter/dryer protects the compressor by restricting and filtering the impurities and moisture contents in the refrigerant.
 
 •	Accumulator – is a refrigerant tank. It stores refrigerant so that the evaporator will not run out of it. Without an accumulator, the 2-door no-frost refrigerating unit will exhibit the symptom of refrigerant starvation.
-
 
 •	Refrigerator-Fan-motor – The fan motor of a 2-door no-frost is situated at the back of the evaporator coils, and it blows the air into the freezer-coils and distribute the air into the freezing and refrigerating compartments. The room area of the freezer is very much smaller than that of the refrigerator, therefore the temperature can be maintained at a few degrees below 0 Centigrade.
 
 •	Freezer-Fan-Motor – The fan motor of a freezer is used to cool the compressor. It is situated beside the compressor in the compressor room. It has a stand and steel bracket, and is bolted into a cross-member. The fan runs together with the compressor. Care should be taken not to bend the fan blade during maintenance. The aluminum blade can vibrate furiously and is detrimental to the shaft bearings and can cause early breakdown.
 
-4. Block diagrams.
-4.1	PRIMARY BLOCK DIAGRAM OF REFRIGERATOR.
- 
-Fig 4.1.1The above figure gives the overall idea about how the system is arranged in the form of block diagram.
+## 4. Block diagrams.
+## 4.1	PRIMARY BLOCK DIAGRAM OF REFRIGERATOR.
+ *Fig 4.1.1The above figure gives the overall idea about how the system is arranged in the form of block diagram.
 
 
  
