@@ -7,19 +7,19 @@
 ---
 ## Table of content.
 1. Abstract and Introduction.
-2. Requirements.
-     I.High level requirements.
-     II.Low level requirements.
-3. Components.
-4. Block diagrams.
-     I.Primary block diagram.
-     II.Structural diagram.
-    III.Flowchart.
-    IV.Sub-system.
-     V.Sensors.
-     VI.Actuators.
-5.Test plan and output.
-6.Application.
+1. Requirements.
+     1. High level requirements.
+     1. Low level requirements.
+1. Components.
+1. Block diagrams.
+     1. Primary block diagram.
+     1. Structural diagram.
+     1. Flowchart.
+     1. Sub-system.
+     1. Sensors.
+     1. Actuators.
+1. Test plan and output.
+1. Application.
 ---
 # 1.Abstract and Introduction.
 ## 1.1 ABSTRACT.
@@ -30,9 +30,8 @@
 
 # 2.Requirements.
 ## There are mainly two types of requirements;
-1.High level requirements.
-
-2.Low level requirements.
+1. High level requirements.
+2. Low level requirements.
 
 * Though both the types of requirements are more or less depended on each other while functioning, according to the need and  usage they are termed as high and low level requirements.
 
@@ -62,7 +61,7 @@
 * The compressor.
 * The condensor.
 * The expansion device.
-*  4.The evaporator.
+* The evaporator.
 
 •Compressor – It is a hermitically sealed reciprocating pump. It is the heart of the refrigeration system. It pumps refrigerant gas to the different components to effect the refrigeration cycle. Their sizes are from 1/12 horse power to 1 horse power. R-12 refrigerant gas is commonly used. Newer environmentally friendly refrigerant gas such as R-134a is being used for the newer models.
 
@@ -72,15 +71,15 @@
 
 •Evaporator – is a serpentine aluminum tubes with aluminum fins. It absorbs the heat in the freezing and refrigerating compartments and transfers it to the condenser. The low pressure liquid refrigerant turns to gas after absorbing the heat. And is ready to make its journey through the accumulator then to the compressor.
 
- * Other components are;
+ ** Other components are;
  
-•	Filter/dryer – It filters the dirt and iron particles from the refrigerant. Some filter Dryer have moisture absorbent materials like, Silica gel or synthetic silicates, which removes moisture from the refrigerant. The filter/dryer protects the compressor by restricting and filtering the impurities and moisture contents in the refrigerant.
+•Filter/dryer – It filters the dirt and iron particles from the refrigerant. Some filter Dryer have moisture absorbent materials like, Silica gel or synthetic silicates, which removes moisture from the refrigerant. The filter/dryer protects the compressor by restricting and filtering the impurities and moisture contents in the refrigerant.
 
-•	Accumulator – is a refrigerant tank. It stores refrigerant so that the evaporator will not run out of it. Without an accumulator, the 2-door no-frost refrigerating unit will exhibit the symptom of refrigerant starvation.
+•Accumulator – is a refrigerant tank. It stores refrigerant so that the evaporator will not run out of it. Without an accumulator, the 2-door no-frost refrigerating unit will exhibit the symptom of refrigerant starvation.
 
-•	Refrigerator-Fan-motor – The fan motor of a 2-door no-frost is situated at the back of the evaporator coils, and it blows the air into the freezer-coils and distribute the air into the freezing and refrigerating compartments. The room area of the freezer is very much smaller than that of the refrigerator, therefore the temperature can be maintained at a few degrees below 0 Centigrade.
+•Refrigerator-Fan-motor – The fan motor of a 2-door no-frost is situated at the back of the evaporator coils, and it blows the air into the freezer-coils and distribute the air into the freezing and refrigerating compartments. The room area of the freezer is very much smaller than that of the refrigerator, therefore the temperature can be maintained at a few degrees below 0 Centigrade.
 
-•	Freezer-Fan-Motor – The fan motor of a freezer is used to cool the compressor. It is situated beside the compressor in the compressor room. It has a stand and steel bracket, and is bolted into a cross-member. The fan runs together with the compressor. Care should be taken not to bend the fan blade during maintenance. The aluminum blade can vibrate furiously and is detrimental to the shaft bearings and can cause early breakdown.
+•Freezer-Fan-Motor – The fan motor of a freezer is used to cool the compressor. It is situated beside the compressor in the compressor room. It has a stand and steel bracket, and is bolted into a cross-member. The fan runs together with the compressor. Care should be taken not to bend the fan blade during maintenance. The aluminum blade can vibrate furiously and is detrimental to the shaft bearings and can cause early breakdown.
 
 # 4. Block diagrams.
 ## 4.1 PRIMARY BLOCK DIAGRAM OF REFRIGERATOR.
@@ -132,7 +131,7 @@
 
 ## 4.6 Actuators.
 
-1.Compressor power relay.
+1. Compressor power relay.
 
 The purpose of this relay is to apply power to the compressor motor start and run windings at power-on, and maintain power to the motor run winding after the start-up phase has expired. Additionally, as the relay contact has a low resistance, it does not dissipate power unnecessarily under normal running conditions.
 
@@ -163,9 +162,9 @@ The basic principle is that whenever a liquid coolant is passed through things a
 
 ** There are various methods of testing,such as;
 
-1.Testing temperatures.
+1. Testing temperatures.
 
-2.Cool-down test.
+2. Cool-down test.
 
 3. Stable running and power consumption test.
 
