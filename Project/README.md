@@ -57,8 +57,8 @@
 |  LLR3.3(For HLR3) | And also to maintain power to the motor run winding after the start-up phase has expired.|
 ---
 
-## 3.Components
-# The main components are,
+# 3.Components
+## The main components are,
 * The compressor.
 * The condensor.
 * The expansion device.
@@ -82,32 +82,36 @@
 
 •	Freezer-Fan-Motor – The fan motor of a freezer is used to cool the compressor. It is situated beside the compressor in the compressor room. It has a stand and steel bracket, and is bolted into a cross-member. The fan runs together with the compressor. Care should be taken not to bend the fan blade during maintenance. The aluminum blade can vibrate furiously and is detrimental to the shaft bearings and can cause early breakdown.
 
-## 4. Block diagrams.
-# 4.1 PRIMARY BLOCK DIAGRAM OF REFRIGERATOR.
-![image](https://user-images.githubusercontent.com/46914341/155833269-da25a81f-3ac8-4d70-aea1-989019407550.png)
+#4. Block diagrams.
+## 4.1 PRIMARY BLOCK DIAGRAM OF REFRIGERATOR.
+
+![image](https://user-images.githubusercontent.com/46914341/155833529-939bfc4f-625e-40ab-b76e-a7f49086add7.png)
 * Fig 4.1.1The above figure gives the overall idea about how the system is arranged in the form of block diagram.
 
 ![image](https://user-images.githubusercontent.com/46914341/155833285-d685d905-da01-494f-9d36-484a93cce4c3.png)
 * Fig 4.1.2 The main focus in this design is to implement a system solution that will control a domestic fridge compressor based on temperature measurement, with some additional functionality.
 
-# 4.2 Structural diagrams.
+## 4.2 Structural diagrams.
+
 ![image](https://user-images.githubusercontent.com/46914341/155833306-bdbd4f6f-871f-4109-bfae-1d999e5477de.png)
 
- # 4.3 Flowcharts.
+ ## 4.3 Flowcharts.
+ 
  ![image](https://user-images.githubusercontent.com/46914341/155833347-5c9ed3cf-711b-49ab-b1d0-822445a302fc.png)
 * fig 4.3.1 Flowchart of the refrigerator function.
 
 ![image](https://user-images.githubusercontent.com/46914341/155833388-913212ee-578d-493e-8950-58343be805ab.png)
 * Fig 4.3.2 Time base module interrupt module.
 
-# 4.4 Sub-systems.
+## 4.4 Sub-systems.
 ![image](https://user-images.githubusercontent.com/46914341/155833448-65e5fb9d-ef14-4d44-973b-02762063ae7b.png)
 * Fig 4.4.1 Schematic diagram of refrigerator.
+
 ![image](https://user-images.githubusercontent.com/46914341/155833460-1838b9b1-70fe-4470-8db7-5377183392d9.png
 * Fig 4.4.2 Freezer system, includes main components of a refrigerator system.
 
 
-	Explaination to the block diagram.
+## Explaination to the block diagram.
 
 •	Embedded within a domestic Fridge compartment is an Evaporator, and on the outside a Condenser, heat exchanging coils and the refrigerant compressor. 
 •	The compressor is driven by an electrical motor. When power is applied to the compressor the pressure of the refrigerant is increased. 
@@ -116,11 +120,11 @@
 •	On evaporating, the refrigerant absorbs heat and subsequently reduces the enclosure temperature. 
 •	The warmer refrigerant is circulated to the outside of the compartment where the cycle repeats under thermal control.
 
-4.5	 Sensors.
-1.Dual Sensor Control with Two Thermo Sensor Controls which enable to increase or decrease the temperature in Freezer & Fridge zone independently.
-2. A reed sensor or Hall effect sensor can be used to detect the door's position. For example, in refrigerators, a reed sensor is mounted to the frame of the appliance and a permanent magnet actuator is mounted to the door
+## 4.5	 Sensors.
+*Dual Sensor Control with Two Thermo Sensor Controls which enable to increase or decrease the temperature in Freezer & Fridge zone independently.
+*A reed sensor or Hall effect sensor can be used to detect the door's position. For example, in refrigerators, a reed sensor is mounted to the frame of the appliance and a permanent magnet actuator is mounted to the door
 
-4.6	 Actuators.
+## 4.6	 Actuators.
 
 1.Compressor power relay.
 
