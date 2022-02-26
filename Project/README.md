@@ -82,7 +82,7 @@
 
 •	Freezer-Fan-Motor – The fan motor of a freezer is used to cool the compressor. It is situated beside the compressor in the compressor room. It has a stand and steel bracket, and is bolted into a cross-member. The fan runs together with the compressor. Care should be taken not to bend the fan blade during maintenance. The aluminum blade can vibrate furiously and is detrimental to the shaft bearings and can cause early breakdown.
 
-#4. Block diagrams.
+# 4. Block diagrams.
 ## 4.1 PRIMARY BLOCK DIAGRAM OF REFRIGERATOR.
 
 ![image](https://user-images.githubusercontent.com/46914341/155833529-939bfc4f-625e-40ab-b76e-a7f49086add7.png)
@@ -107,24 +107,29 @@
 ![image](https://user-images.githubusercontent.com/46914341/155833448-65e5fb9d-ef14-4d44-973b-02762063ae7b.png)
 * Fig 4.4.1 Schematic diagram of refrigerator.
 
-![image](https://user-images.githubusercontent.com/46914341/155833460-1838b9b1-70fe-4470-8db7-5377183392d9.png
+![image](https://user-images.githubusercontent.com/46914341/155833695-7cda74e6-cd24-456a-8adc-8fbba0e308c3.png)
 * Fig 4.4.2 Freezer system, includes main components of a refrigerator system.
 
 
 ## Explaination to the block diagram.
 
-•	Embedded within a domestic Fridge compartment is an Evaporator, and on the outside a Condenser, heat exchanging coils and the refrigerant compressor. 
-•	The compressor is driven by an electrical motor. When power is applied to the compressor the pressure of the refrigerant is increased. 
-•	This increase in pressure causes an increase in refrigerant temperature and the heat produced by this action is dissipated through the heat exchanging coils at the rear of the appliance. 
-•	The refrigerant then condenses and passes through from the high-pressure environment of the condenser through an expansion valve to the low-pressure evaporation system inside the Fridge compartment. 
-•	On evaporating, the refrigerant absorbs heat and subsequently reduces the enclosure temperature. 
-•	The warmer refrigerant is circulated to the outside of the compartment where the cycle repeats under thermal control.
+• Embedded within a domestic Fridge compartment is an Evaporator, and on the outside a Condenser, heat exchanging coils and the refrigerant compressor. 
 
-## 4.5	 Sensors.
+• The compressor is driven by an electrical motor. When power is applied to the compressor the pressure of the refrigerant is increased. 
+
+• This increase in pressure causes an increase in refrigerant temperature and the heat produced by this action is dissipated through the heat exchanging coils at the rear of the appliance. 
+
+• The refrigerant then condenses and passes through from the high-pressure environment of the condenser through an expansion valve to the low-pressure evaporation system inside the Fridge compartment.
+
+• On evaporating, the refrigerant absorbs heat and subsequently reduces the enclosure temperature.
+
+• The warmer refrigerant is circulated to the outside of the compartment where the cycle repeats under thermal control.
+
+## 4.5 Sensors.
 *Dual Sensor Control with Two Thermo Sensor Controls which enable to increase or decrease the temperature in Freezer & Fridge zone independently.
 *A reed sensor or Hall effect sensor can be used to detect the door's position. For example, in refrigerators, a reed sensor is mounted to the frame of the appliance and a permanent magnet actuator is mounted to the door
 
-## 4.6	 Actuators.
+## 4.6 Actuators.
 
 1.Compressor power relay.
 
