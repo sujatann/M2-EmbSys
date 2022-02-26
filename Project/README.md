@@ -43,7 +43,6 @@
 |  HLR2	   | The system shall have control over alarm conditions.|
 |  HLR3	   | The system shall be able to keep a track on compressor control.|
 
-
 ## 2.2 Low level requirements.
 |     Id	   |     Low level requirements.  |
 |------------|------------------------------|
@@ -60,13 +59,10 @@
 
 ## 3.Components
 # The main components are,
-1.The compressor.
-
-2.The condensor.
-
-3.The expansion device.
-
-* 4.The evaporator.
+* The compressor.
+* The condensor.
+* The expansion device.
+*  4.The evaporator.
 
 •Compressor – It is a hermitically sealed reciprocating pump. It is the heart of the refrigeration system. It pumps refrigerant gas to the different components to effect the refrigeration cycle. Their sizes are from 1/12 horse power to 1 horse power. R-12 refrigerant gas is commonly used. Newer environmentally friendly refrigerant gas such as R-134a is being used for the newer models.
 
@@ -87,30 +83,28 @@
 •	Freezer-Fan-Motor – The fan motor of a freezer is used to cool the compressor. It is situated beside the compressor in the compressor room. It has a stand and steel bracket, and is bolted into a cross-member. The fan runs together with the compressor. Care should be taken not to bend the fan blade during maintenance. The aluminum blade can vibrate furiously and is detrimental to the shaft bearings and can cause early breakdown.
 
 ## 4. Block diagrams.
-## 4.1	PRIMARY BLOCK DIAGRAM OF REFRIGERATOR.
- *Fig 4.1.1The above figure gives the overall idea about how the system is arranged in the form of block diagram.
+# 4.1 PRIMARY BLOCK DIAGRAM OF REFRIGERATOR.
+![image](https://user-images.githubusercontent.com/46914341/155833269-da25a81f-3ac8-4d70-aea1-989019407550.png)
+* Fig 4.1.1The above figure gives the overall idea about how the system is arranged in the form of block diagram.
 
+![image](https://user-images.githubusercontent.com/46914341/155833285-d685d905-da01-494f-9d36-484a93cce4c3.png)
+* Fig 4.1.2 The main focus in this design is to implement a system solution that will control a domestic fridge compressor based on temperature measurement, with some additional functionality.
 
- 
-Fig 4.1.2 The main focus in this design is to implement a system solution that will control a domestic fridge compressor based on temperature measurement, with some additional functionality.
+# 4.2 Structural diagrams.
+![image](https://user-images.githubusercontent.com/46914341/155833306-bdbd4f6f-871f-4109-bfae-1d999e5477de.png)
 
-4.2	Structural diagrams.
-.  
-4.3	Flowcharts.
+ # 4.3 Flowcharts.
+ ![image](https://user-images.githubusercontent.com/46914341/155833347-5c9ed3cf-711b-49ab-b1d0-822445a302fc.png)
+* fig 4.3.1 Flowchart of the refrigerator function.
 
- 
-4.3.1	Flowchart of the refrigerator function.
- 
-Fig 4.3.2 Time base module interrupt module.
+![image](https://user-images.githubusercontent.com/46914341/155833388-913212ee-578d-493e-8950-58343be805ab.png)
+* Fig 4.3.2 Time base module interrupt module.
 
-4.4	 Sub-systems.
-
-
- 
-Fig 4.4.1 Schematic diagram of refrigerator.
-
- 
-Fig 4.4.2 Freezer system, includes main components of a refrigerator system.
+# 4.4 Sub-systems.
+![image](https://user-images.githubusercontent.com/46914341/155833448-65e5fb9d-ef14-4d44-973b-02762063ae7b.png)
+* Fig 4.4.1 Schematic diagram of refrigerator.
+![image](https://user-images.githubusercontent.com/46914341/155833460-1838b9b1-70fe-4470-8db7-5377183392d9.png
+* Fig 4.4.2 Freezer system, includes main components of a refrigerator system.
 
 
 	Explaination to the block diagram.
