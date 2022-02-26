@@ -48,6 +48,7 @@ II.	Low level test plan.
 
 
 
+
 1.Abstract and Introduction.
 
 1.1	ABSTRACT.
@@ -72,6 +73,7 @@ Though both the types of requirements are more or less depended on each other wh
 2.1	High level requirements.
 
 |Id	   ||          High level requirements.|
+|----------||----------------------------------|
 HLR1	The system shall maintain the temperature in the required limit.
 HLR2	The system shall have control over alarm conditions.
 HLR3	The system shall be able to keep a track on compressor control.
