@@ -4,4 +4,9 @@ Which includes,
 •	 A reed sensor or Hall effect sensor can be used to detect the door's position. For example, in refrigerators, a reed sensor is mounted to the frame of the appliance and a permanent magnet actuator is mounted to the door
 
 Actuators:
-* A refrigerator actuator or water dispenser consists of a paddle-shaped lever that releases ice or water. When the water dispenser lever will not work or depressing the lever causes little to no water flow, there may be air in the water dispenser supply lines or a broken lever mechanism that needs to be replaced.
+
+* Compressor power relay.
+The purpose of this relay is to apply power to the compressor motor start and run windings at power-on, and maintain power to the motor run winding after the start-up phase has expired. Additionally, as the relay contact has a low resistance, it does not dissipate power unnecessarily under normal running conditions.
+
+* A thermostatic actuator .
+It acts as a valve actuator to open or close a valve based on a temperature setpoint to. i.e The regulating system, consists of thermostatic valve means for controlling the flow of refrigerant to the evaporator having an actuator chamber filled with a refrigerant medium having liquid an vapor phases, and electrical heat supply element in the actuator chamber.
