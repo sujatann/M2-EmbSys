@@ -125,9 +125,13 @@
 • The warmer refrigerant is circulated to the outside of the compartment where the cycle repeats under thermal control.
 
 ## 4.5 Sensors.
-1. Dual Sensor Control with Two Thermo Sensor Controls which enable to increase or decrease the temperature in Freezer & Fridge zone independently.
+1. Dual Sensor.
+ 
+Dual sensor Control with Two Thermo Sensor Controls which enable to increase or decrease the temperature in Freezer & Fridge zone independently.
 
-2. A reed sensor or Hall effect sensor can be used to detect the door's position. For example, in refrigerators, a reed sensor is mounted to the frame of the appliance and a permanent magnet actuator is mounted to the door
+2. A reed sensor or Hall effect sensor.
+
+It can  can be used to detect the door's position. For example, in refrigerators, a reed sensor is mounted to the frame of the appliance and a permanent magnet actuator is mounted to the door
 
 ## 4.6 Actuators.
 
@@ -140,7 +144,7 @@ The purpose of this relay is to apply power to the compressor motor start and ru
 It acts as a valve actuator to open or close a valve based on a temperature setpoint to. i.e The regulating system, consists of thermostatic valve means for controlling the flow of refrigerant to the evaporator having an actuator chamber filled with a refrigerant medium having liquid an vapor phases, and electrical heat supply element in the actuator chamber.
 ## Working of refrigerator:
 
-The basic principle is that whenever a liquid coolant is passed through things at a higher temperature, it absorbs the heat; gets evaporated and the cooling effect is produced. The Refrigerator works on the principle of evaporation.
+* The basic principle is that whenever a liquid coolant is passed through things at a higher temperature, it absorbs the heat; gets evaporated and the cooling effect is produced. The Refrigerator works on the principle of evaporation.
 
  i.e, When the temperature of the fridge compartment rises above the pre-selected thermostat setting, the bi-metallic contact closes and line voltage is applied to both the start and run windings simultaneously. The start winding has a lower resistance than the run winding and provide the initial current surge required to start the motor. This inrush of current subsequently raises the temperature of the PTC and increases its resistive property, which in turn reduces the current flow to the start winding. At this point in time, the current through the start winding has been minimised by the PTC, the current through the run winding is stable and the motor continues to run. When the fridge compartment reaches the desired temperature the thermostat contact opens, removing power from the motor. When the compartment air temperature again rises, the temperature control cycle repeats.
 
