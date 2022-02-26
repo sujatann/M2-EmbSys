@@ -187,5 +187,11 @@ IV.	Pharmaceutical.
 V.	Food & Beverages.
 
 VI.	Data Centres.
+<<<<<<< HEAD
 
 VII.	Other industries.
+=======
+
+VII.	Other industries.
+
+>>>>>>> 3f56b638eb4a8b1161197c6123e775c282f4708a
