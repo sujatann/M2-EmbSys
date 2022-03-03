@@ -72,7 +72,7 @@
  
 
 # 4. Block diagrams.
-## 4.1 PRIMARY BLOCK DIAGRAM OF REFRIGERATOR.
+## 4.1 PRIMARY BLOCK DIAGRAM OF DIGITAL VOLTMETER.
 
 ![image](https://user-images.githubusercontent.com/46914341/156607250-11cbd096-e008-4b3d-a4fa-0d8a80f8c837.png)
 * Fig 4.1.1The above figure gives the overall idea about how the system is arranged in the form of block diagram.
@@ -114,6 +114,7 @@ Digital Voltmeter abbreviated as DVM is an instrument used to measure the electr
 * Knowing the voltage across a circuit, current can be calculated.
 
 # 6.REFERENCES.
+
 1. The information is referred from some papers and from browser.
 2. Idea of block diagram is taken from available sources. 
 
