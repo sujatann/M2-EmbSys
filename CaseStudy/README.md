@@ -1,6 +1,6 @@
 # Module 2- Overview of embedded software, design,development processes and standards.
 
-## Casestudy  ON REFRIGERATOR :
+## Casestudy 1, ON REFRIGERATOR :
 ## Submitted by: Sujata Naikar
 ## PS:99007669
 ---
