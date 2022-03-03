@@ -20,6 +20,7 @@
      1. Actuators.
 1. Test plan and output.
 1. Application.
+1. References.
 ---
 # 1.Abstract and Introduction.
 ## 1.1 ABSTRACT.
@@ -190,4 +191,7 @@ VI.	Data Centres.
 
 VII.	Other industries.
 
+# 7.REFERENCES.
+1. The information is referred from some papers and from browser.
+2. Idea of block diagram is taken from available sources. 
 
