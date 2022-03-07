@@ -3,7 +3,7 @@
 
 ## REPORT:
 
-## PROJECT TITLE: DISTANCE MEASUREMENT USING ULTRASONIC SENSOR “HC-SR04” WITH AVR MICROCONTROLLER.
+## PROJECT TITLE: DISTANCE MEASUREMENT USING ULTRASONIC SENSOR “HC-SR04”.
 ## Submitted by: Sujata Naikar
 ## PS:99007669
 ---
@@ -31,6 +31,13 @@ Nowadays, we have some difficulties in obtaining the distance that we want to me
 ## 1.2 INTRODUCTION.
 
 Ultrasonic sensors are great tools to measure distance and detect objects without any actual contact with the physical world. It is used in several applications, like in measuring liquid level, checking proximity and even more popularly in automobiles to assist in self-parking or anti-collision systems.This is an efficient way to measure small distances precisely. In this project, we have used the HC-SR04 Ultrasonic Sensor with microcontroller or can also be interfaced with an arduino to determine the distance of an obstacle from the sensor. The basic principle of ultrasonic distance measurement is based on ECHO. When sound waves are transmitted in the environment then waves return back to the origin as ECHO after striking on the obstacle. 
+
+## 5W's & 1H and S.W.O.T analysis.
+![W AND HOW](https://user-images.githubusercontent.com/46914341/156984874-024b8089-f91e-4d01-85ba-58de657e0ee7.PNG)
+
+![swot an](https://user-images.githubusercontent.com/46914341/156988013-9483d913-5fae-4185-aef5-c8cff5ad4c10.PNG)
+
+
 
 
 ---
