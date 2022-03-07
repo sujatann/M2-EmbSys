@@ -18,4 +18,4 @@ There are many types of Arduino distance sensors, but in this project we have us
 
 **LCD(Actuator): This display offers a way to interface your microcontroller to the outside world. It's one of the main output devices in your kit.
 
-**Servo motor: A servomotor (or servo motor) is a rotary actuator or linear actuator that allows for precise control of angular or linear position, velocity and acceleration. It consists of a suitable motor coupled to a sensor for position feedba
+**Servo motor: A servomotor (or servo motor) is a rotary actuator or linear actuator that allows for precise control of angular or linear position, velocity and acceleration. It consists of a suitable motor coupled to a sensor for position feedback to control its motion and final position. The motor is attached with the sensor to find the distance range around the sensor for 1800 rotations. The motor is controlled and interfaced with Arduino microcontroller to rotate in clockwise and anticlockwise.
