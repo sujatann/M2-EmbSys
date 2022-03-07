@@ -148,6 +148,7 @@ A servomotor is a rotary actuator / linear actuator that allows for precise cont
 
 # 5.Test plan and output.
 • Testing
+The measurement  repeatability  and  stability  over  time  are  important  for determining the size of errors and corrections’ calculation. 
 
 ## The purpose of testing,
 
