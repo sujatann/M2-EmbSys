@@ -95,7 +95,14 @@ There are many types of Arduino distance sensors, but in this project we have us
 * Fig 4.1.1The above figure gives the overall idea about how the system is arranged in the form of block diagram.
 
 ![hardware](https://user-images.githubusercontent.com/46914341/157051582-0da52b17-d95a-4235-984d-caaa258a8eb4.png)
-* The above figure shows hoe the each of the components are connected to each other
+* Fig 4.1.2The above figure shows hoe the each of the components are connected to each other.
+
+![flowchart](https://user-images.githubusercontent.com/46914341/157057723-048b1f8d-2167-41a7-be33-a489cac5d3ae.PNG)
+* Fig 4.1.3The above figure also explains about how the blocks are arranged with respect to each other.
+
+Block diagram of the working principle of an ultrasonic radar As shown in the above Fig, Arduino UNO receives power supply from the computer. Then microcontroller sends signals to the other two components: the ultrasonic sensor and servo motor. The feedback from these components is sent back to the microcontroller. The ultrasonic sensor has a transmitter to send out the ultrasound and a receiver to catch the reflected sound waves. The total travelling time of this sound wave is the distance.
+
+
 
 ## 4.2 Structural diagrams.
 
@@ -103,11 +110,8 @@ There are many types of Arduino distance sensors, but in this project we have us
 
  ## 4.3 Flowcharts.
  
- ![image](https://user-images.githubusercontent.com/46914341/155833347-5c9ed3cf-711b-49ab-b1d0-822445a302fc.png)
-* fig 4.3.1 Flowchart of the refrigerator function.
-
-![image](https://user-images.githubusercontent.com/46914341/155833388-913212ee-578d-493e-8950-58343be805ab.png)
-* Fig 4.3.2 Time base module interrupt module.
+ ![flowchart](https://user-images.githubusercontent.com/46914341/157056917-ce29cf9e-ab7d-4947-b2a2-a697c4cf2afa.PNG)
+* fig 4.3.1 Flowchart of the Distance measurement meter.
 
 ## 4.4 Sub-systems.
 ![image](https://user-images.githubusercontent.com/46914341/155833448-65e5fb9d-ef14-4d44-973b-02762063ae7b.png)
