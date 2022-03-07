@@ -30,7 +30,9 @@ Nowadays, we have some difficulties in obtaining the distance that we want to me
 
 ## 1.2 INTRODUCTION.
 
-An ultrasonic sensor houses a transducer that emits high-frequency, inaudible acoustic waves in one direction when the transducer element vibrates. If the waves strike and bounce off an object, the transducer receives the echoed signal. The sensor then determines its distance from the object based on the length of time between the initial sound burst and the echo's return. Ultrasonic sensors require fairly accurate timing circuitry, so acoustic sensors really require a processor of some sort to drive them. Ultrasonic sensors should be a first choice for detecting clear objects, liquids, dense materials of any surface type (rough, smooth, shiny) and irregular shaped objects. This makes them one of the most ideal choices for measuring the height of containers which could be of different shapes, sizes, color and material. 
+Ultrasonic sensors are great tools to measure distance and detect objects without any actual contact with the physical world. It is used in several applications, like in measuring liquid level, checking proximity and even more popularly in automobiles to assist in self-parking or anti-collision systems.This is an efficient way to measure small distances precisely. In this project, we have used the HC-SR04 Ultrasonic Sensor with microcontroller or can also be interfaced with an arduino to determine the distance of an obstacle from the sensor. The basic principle of ultrasonic distance measurement is based on ECHO. When sound waves are transmitted in the environment then waves return back to the origin as ECHO after striking on the obstacle. 
+
+
 ---
 
 # 2.Requirements.
@@ -43,19 +45,18 @@ An ultrasonic sensor houses a transducer that emits high-frequency, inaudible ac
 ## 2.1 High level requirements.
 |   Id	   |          High level requirements.                              |
 |----------|------------------------------------------------------------------|
-|  HLR1	   | The system shall maintain the temperature in the required limit.|
-|  HLR2	   | The system shall have control over alarm conditions.|
-|  HLR3	   | The system shall be able to keep a track on compressor control.|
+|  HLR1	   | The system shall be used to find precise and fix measurement of low range distance.|
+|  HLR2	   | The system shall be able to measure a distance of any obstacle. |
+|  HLR3	   | The system shall be to operate at  the range of 0.5m up to 4 m with an accuracy of 1cm. |
 
 ## 2.2 Low level requirements.
 |     Id	   |     Low level requirements.  |
 |------------|------------------------------|
-|  LLR1.1(for HLR1)	| From initial power-on, the ambient air temperature of the fridge is typically around +21°C.|
-|  LLR1.2(for HLR1)	| The user selected temperature is typically setaround +5°C, and may cycle between +8 and +2°C.|
-|  LLR2.1(For HLR2)	| There are three possible alarm situations. These are, door open, over, or under temperature conditions.|
-|  LLR2.2(For HLR2)	| If the door has inadvertently been opened for a pre-determined time, for example, one minute, an audible alarm will be sounded.|
-|  LLR2.3(For HLR2)	| The over temperature situation can occur if the fridge door is not closed properly or there is compressor failure or a refrigerant pressure problem.|
-|  LLR2.4(For HLR2)	| The under temperature case may occur if the compressor is permanently powered-on. In all of these situations the objective is to alert the user.|
+|  LLR1.1(for HLR1)	| The size of the object should be of the order of wavelength of signal for it to be detected. So object should not be very small.|
+|  LLR1.2(for HLR1)	|  HC-SR04 Ultrasonic Sensor with Arduino is used to determine the distance of an obstacle from the sensor.|
+|  LLR2.1(For HLR2)	| The object should be placed near the rotational axis of transmitter.|
+|  LLR2.2(For HLR2)	| At wider angles less reflection takes place.|
+|  LLR2.3(For HLR2)	| The object should be a good reflecting surface.|
 |  LLR3.1(For HLR3)	| A conventional compressor control case, a more efficient and long-term cost-effective solution can be implemented using the microcontroller to control the compressor motor using a triac and a relay.|
 |  LLR3.2(For HLR3)	| The purpose of this relay is to apply power to the compressor motor start and run windings at power-on.|
 |  LLR3.3(For HLR3) | And also to maintain power to the motor run winding after the start-up phase has expired.|
