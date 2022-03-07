@@ -150,45 +150,20 @@ A servomotor is a rotary actuator / linear actuator that allows for precise cont
 • Testing
 
 ## The purpose of testing,
-1. Increases use-age life of the refrigerators.
-	
-2. Save money & save energy as well with using star rating product or certified components.
-	
-3. Provide faith in product.
- 
-4. Improve safety of the product.
- 
-5. Improve performance as well.
-
-6. Provide safety to user.
-
-** There are various methods of testing,such as;
-
-1. Testing temperatures.
-
-2. Cool-down test.
-
-3. Stable running and power consumption test.
 
 
 # 6.Applications:
 
-## Applications of Refrigeration in 7 Different Industries
-I.	District Cooling.
+## This is a very economic technology and can be used in several other fields as well, few are listed as below:
 
-II.	Electricity Production.
-
-III.	Chemical and Petrochemicals.
-
-IV.	Pharmaceutical.
-
-V.	Food & Beverages.
-
-VI.	Data Centres.
-
-VII.	Other industries.
+1. Can be used as parking assistance systems in vehicles with high power ultrasonic transmitter.
+2. Can be used as burglar alarm with suitable additional software for homes and offices.
+3. Can be a used in liquid level measurement.
+4. Can be used to find breakdowns in wires or threads.
 
 # 7.REFERENCES.
-1. The information is referred from some papers and from browser.
-2. Idea of block diagram is taken from available sources. 
-
+1. https://www.erpublication.org/published_paper/IJETR_APRIL_2014_STET_60.pdf 
+   The above link preferred for some objective information.
+   
+2. Idea of block diagram is taken from available sources. https://iotdunia.com/distance-measurement/
+ To know about the connections between components.
