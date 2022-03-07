@@ -9,20 +9,21 @@
 ---
 ## Table of content.
 1. Abstract and Introduction.
-1. Requirements.
+    1. 5W's & 1H and S.W.O.T analysis.
+2. Requirements.
      1. High level requirements.
      1. Low level requirements.
-1. Components.
-1. Block diagrams.
+3. Components.
+4. Block diagrams.
      1. Primary block diagram.
      1. Structural diagram.
      1. Flowchart.
      1. Sub-system.
      1. Sensors.
      1. Actuators.
-1. Test plan and output.
-1. Application.
-1. References.
+5. Test plan and output.
+6. Application.
+7. References.
 ---
 # 1.Abstract and Introduction.
 ## 1.1 ABSTRACT.
@@ -35,11 +36,7 @@ Ultrasonic sensors are great tools to measure distance and detect objects withou
 ## 5W's & 1H and S.W.O.T analysis.
 ![W AND HOW](https://user-images.githubusercontent.com/46914341/156984874-024b8089-f91e-4d01-85ba-58de657e0ee7.PNG)
 
-![swot an](https://user-images.githubusercontent.com/46914341/156988013-9483d913-5fae-4185-aef5-c8cff5ad4c10.PNG)
-
-
-
-
+![SA](https://user-images.githubusercontent.com/46914341/156991290-fe6edd1c-172b-450c-94d1-d88bd057d82d.PNG)
 ---
 
 # 2.Requirements.
@@ -47,52 +44,49 @@ Ultrasonic sensors are great tools to measure distance and detect objects withou
 1. High level requirements.
 2. Low level requirements.
 
-* Though both the types of requirements are more or less depended on each other while functioning, according to the need and  usage they are termed as high and low level requirements.
+* Though both the types of requirements are more or less depended on each other while functioning, according to the need and usage they are termed as high and low level requirements.
 
 ## 2.1 High level requirements.
 |   Id	   |          High level requirements.                              |
 |----------|------------------------------------------------------------------|
 |  HLR1	   | The system shall be used to find precise and fix measurement of low range distance.|
 |  HLR2	   | The system shall be able to measure a distance of any obstacle. |
-|  HLR3	   | The system shall be to operate at  the range of 0.5m up to 4 m with an accuracy of 1cm. |
+|  HLR3	   | The system shall be able to operate at the range of 2cm-400cm with an accuracy of 3mm.  |
 
 ## 2.2 Low level requirements.
 |     Id	   |     Low level requirements.  |
 |------------|------------------------------|
-|  LLR1.1(for HLR1)	| The size of the object should be of the order of wavelength of signal for it to be detected. So object should not be very small.|
-|  LLR1.2(for HLR1)	|  HC-SR04 Ultrasonic Sensor with Arduino is used to determine the distance of an obstacle from the sensor.|
-|  LLR2.1(For HLR2)	| The object should be placed near the rotational axis of transmitter.|
-|  LLR2.2(For HLR2)	| At wider angles less reflection takes place.|
+|  LLR1.1(for HLR1)	| Ultrasonic sensors generate high frequency sound waves and evaluate the echo which is received back by the sensor.|
+|  LLR1.2(for HLR1)	|  calculates the distance depending upon the time taken by the echo signal to travel back after reflecting from the desired target.|
+|  LLR2.1(For HLR2)	|The size of the object should be of the order of wavelength of signal for it to be detected. So object should not be very small.|
+|  LLR2.2(For HLR2)	| The object should be placed near the rotational axis of transmitter.At wider angles less reflection takes place.|
 |  LLR2.3(For HLR2)	| The object should be a good reflecting surface.|
-|  LLR3.1(For HLR3)	| A conventional compressor control case, a more efficient and long-term cost-effective solution can be implemented using the microcontroller to control the compressor motor using a triac and a relay.|
-|  LLR3.2(For HLR3)	| The purpose of this relay is to apply power to the compressor motor start and run windings at power-on.|
-|  LLR3.3(For HLR3) | And also to maintain power to the motor run winding after the start-up phase has expired.|
+|  LLR3.1(For HLR3)	|Sensors calculate the time interval between sending the signal and receiving the echo to determine the distance to an objectin the particular range of distance.|
+|  LLR3.2(For HLR3)	| Make sure about provided range of operation because above the range of the specification provided it might won't provide accurate values.|
+
 ---
 
 # 3.Components
 ## The main components are,
-* The compressor.
-* The condensor.
-* The expansion device.
-* The evaporator.
+* Arduino Uno.
+* Ultrasonic sensor Module
+* 16x2 LCD.
+* Scale
+* Bread board
+* 5 volt battery
+* Connecting wires
 
-•Compressor – It is a hermitically sealed reciprocating pump. It is the heart of the refrigeration system. It pumps refrigerant gas to the different components to effect the refrigeration cycle. Their sizes are from 1/12 horse power to 1 horse power. R-12 refrigerant gas is commonly used. Newer environmentally friendly refrigerant gas such as R-134a is being used for the newer models.
+**Arduino Uno: Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.
 
-•Condenser –  It is made of serpentine copper tubes with aluminum fins. The combine heat of gas refrigerant from the evaporator and the heat of the compressed gas refrigerant from the compressor is being dissipated into the atmosphere, and changes the gas refrigerant into liquid refrigerant.
+**Ultrasonic sensor Module:(The ultrasonic Sensor is considered to be a digital sensor because the microcontroller reads a digital signal from it.)
+There are many types of Arduino distance sensors, but in this project we have used the HC-SR04 to measure distance in range of 2cm-400cm with an accuracy of 3mm. The sensor module consists of an ultrasonic transmitter, receiver and control circuit. The working principle of ultrasonic sensor is as follows:
 
-•Expansion Valve – copper capillary tube, or "expansion valve", is widely used on refrigeration appliances. Their outside diameter is 2.5mm, and their length is between 8 feet to 12 feet. High pressure liquid refrigerant leaves the capillary tube into low-pressure low-temperature liquid refrigerant.
+* High level signal is sent for 10us using Trigger.
+* The module sends eight 40 KHz signals automatically, and then detects whether pulse is received or not.
+* If the signal is received, then it is through high level. The time of high duration is the time gap between sending and receiving the signal.
 
-•Evaporator – is a serpentine aluminum tubes with aluminum fins. It absorbs the heat in the freezing and refrigerating compartments and transfers it to the condenser. The low pressure liquid refrigerant turns to gas after absorbing the heat. And is ready to make its journey through the accumulator then to the compressor.
+**LCD(Actuator):This display offers a way to interface your microcontroller to the outside world. It's one of the main output devices in your kit.
 
- ** Other components are;
- 
-•Filter/dryer – It filters the dirt and iron particles from the refrigerant. Some filter Dryer have moisture absorbent materials like, Silica gel or synthetic silicates, which removes moisture from the refrigerant. The filter/dryer protects the compressor by restricting and filtering the impurities and moisture contents in the refrigerant.
-
-•Accumulator – is a refrigerant tank. It stores refrigerant so that the evaporator will not run out of it. Without an accumulator, the 2-door no-frost refrigerating unit will exhibit the symptom of refrigerant starvation.
-
-•Refrigerator-Fan-motor – The fan motor of a 2-door no-frost is situated at the back of the evaporator coils, and it blows the air into the freezer-coils and distribute the air into the freezing and refrigerating compartments. The room area of the freezer is very much smaller than that of the refrigerator, therefore the temperature can be maintained at a few degrees below 0 Centigrade.
-
-•Freezer-Fan-Motor – The fan motor of a freezer is used to cool the compressor. It is situated beside the compressor in the compressor room. It has a stand and steel bracket, and is bolted into a cross-member. The fan runs together with the compressor. Care should be taken not to bend the fan blade during maintenance. The aluminum blade can vibrate furiously and is detrimental to the shaft bearings and can cause early breakdown.
 
 # 4. Block diagrams.
 ## 4.1 PRIMARY BLOCK DIAGRAM OF REFRIGERATOR.
