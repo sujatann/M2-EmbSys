@@ -1,13 +1,8 @@
-# APPLICATIONS:
-* Refrigerators provide cooling, which is necessary to keep your food fresh and safe.
-* In the summer season, refrigerators also keep your water and other drinks cool so that you can enjoy drinking them to the best.
-* They also have freezers which let you freeze water into ice, which can be used for many other purposes.
+# Applications:
 
-## And also used in;
-I. District Cooling.
-II. Electricity Production.
-III. Chemical and Petrochemicals.
-IV. Pharmaceutical.
-V. Food & Beverages.
-VI. Data Centres.
-VII. Other industries.
+## This is a very economic technology and can be used in several other fields as well, few are listed as below:
+
+1. Can be used as parking assistance systems in vehicles with high power ultrasonic transmitter.
+2. Can be used as burglar alarm with suitable additional software for homes and offices.
+3. Can be a used in liquid level measurement.
+4. Can be used to find breakdowns in wires or threads.
