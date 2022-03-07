@@ -15,12 +15,12 @@
      1. Low level requirements.
 3. Components.
 4. Block diagrams.
-     1. Primary block diagram.
+     1. Block diagram.
      1. Structural diagram.
      1. Flowchart.
-     1. Sub-system.
      1. Sensors.
      1. Actuators.
+     1. Sub-system.
 5. Test plan and output.
 6. Application.
 7. References.
@@ -89,13 +89,13 @@ There are many types of Arduino distance sensors, but in this project we have us
 
 
 # 4. Block diagrams.
-## 4.1 PRIMARY BLOCK DIAGRAM OF REFRIGERATOR.
+## 4.1 BLOCK DIAGRAM..
 
-![image](https://user-images.githubusercontent.com/46914341/155833529-939bfc4f-625e-40ab-b76e-a7f49086add7.png)
+![BD](https://user-images.githubusercontent.com/46914341/157050047-47e2be8e-0b47-4b21-8979-0de5bd0cc812.PNG)
 * Fig 4.1.1The above figure gives the overall idea about how the system is arranged in the form of block diagram.
 
-![image](https://user-images.githubusercontent.com/46914341/155833285-d685d905-da01-494f-9d36-484a93cce4c3.png)
-* Fig 4.1.2 The main focus in this design is to implement a system solution that will control a domestic fridge compressor based on temperature measurement, with some additional functionality.
+![hardware](https://user-images.githubusercontent.com/46914341/157051582-0da52b17-d95a-4235-984d-caaa258a8eb4.png)
+* The above figure shows hoe the each of the components are connected to each other
 
 ## 4.2 Structural diagrams.
 
