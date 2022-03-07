@@ -129,7 +129,7 @@ The sensor consists of Ultrasonic transmitter and Ultrasonic receiver. The worki
 
 Distance = (Time of High Level x Velocity of Sound in Air (340M/s))/2
 
-It can  can be used to detect the door's position. For example, in refrigerators, a reed sensor is mounted to the frame of the appliance and a permanent magnet actuator is mounted to the door
+It can  can be used to detect the door's position. For example, in refrigerators, a reed sensor is mounted to the frame of the appliance and a permanent magnet actuator is mounted to the door.
 
 ## 4.6 Actuators.
 
@@ -140,7 +140,7 @@ LCD is a type of flat panel display which uses liquid crystals in its primary fo
 
 2. Servo motor :
 
-A servomotor is a rotary actuator / linear actuator that allows for precise control of angular or linear position, velocity and acceleration. It consists of a suitable motor coupled to a sensor for position feedback. It also requires a relatively sophisticated controller, often a dedicated module designed specifically for use with servomotors. Servomotors are used in applications such as robotics, CNC machinery or automated manufacturing. A servomotor is a closed-loop servomechanism that uses position feedback to control its motion and final position. The motor is attached with the sensor to find the distance range around the sensor for 1800 rotations. The motor is controlled and interfaced with Arduino microcontroller to rotate in clockwise and anticlockwise.[
+A servomotor is a rotary actuator / linear actuator that allows for precise control of angular or linear position, velocity and acceleration. It consists of a suitable motor coupled to a sensor for position feedback. It also requires a relatively sophisticated controller, often a dedicated module designed specifically for use with servomotors. Servomotors are used in applications such as robotics, CNC machinery or automated manufacturing. A servomotor is a closed-loop servomechanism that uses position feedback to control its motion and final position. The motor is attached with the sensor to find the distance range around the sensor for 1800 rotations. The motor is controlled and interfaced with Arduino microcontroller to rotate in clockwise and anticlockwise.
 
 ## Working:
 
