@@ -97,16 +97,13 @@ There are many types of Arduino distance sensors, but in this project we have us
 ![hardware](https://user-images.githubusercontent.com/46914341/157051582-0da52b17-d95a-4235-984d-caaa258a8eb4.png)
 * Fig 4.1.2The above figure shows hoe the each of the components are connected to each other.
 
-![flowchart](https://user-images.githubusercontent.com/46914341/157057723-048b1f8d-2167-41a7-be33-a489cac5d3ae.PNG)
+## 4.2 Structural diagrams.
+
+![flow](https://user-images.githubusercontent.com/46914341/157058453-d177ddd8-4a13-4ec6-b71f-e8ebecfd571f.PNG)
 * Fig 4.1.3The above figure also explains about how the blocks are arranged with respect to each other.
 
 Block diagram of the working principle of an ultrasonic radar As shown in the above Fig, Arduino UNO receives power supply from the computer. Then microcontroller sends signals to the other two components: the ultrasonic sensor and servo motor. The feedback from these components is sent back to the microcontroller. The ultrasonic sensor has a transmitter to send out the ultrasound and a receiver to catch the reflected sound waves. The total travelling time of this sound wave is the distance.
 
-
-
-## 4.2 Structural diagrams.
-
-![image](https://user-images.githubusercontent.com/46914341/155833306-bdbd4f6f-871f-4109-bfae-1d999e5477de.png)
 
  ## 4.3 Flowcharts.
  
