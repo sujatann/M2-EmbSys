@@ -149,6 +149,18 @@ A servomotor is a rotary actuator / linear actuator that allows for precise cont
 # 5.Test plan and output.
 • Testing
 The measurement  repeatability  and  stability  over  time  are  important  for determining the size of errors and corrections’ calculation. 
+| Test ID |	Description |	Input	| Expected Output|	Actual Output	|Passed/Not |
+|---------|-------------|-----------|----------------|------------------|-----------|
+| 1	| Distance | 2cm-400cm |The object is detected |	The object is detected	|Passed|
+| 2	| Lcd display	| Distance measure |	Distance measure |	Distance measure|	Passed|
+| 3	|Servo motor	|Rotates after detecting any object	|Rotates after detecting any object	|Rotates after detecting any object|	Passed|
+
+
+
+
+
+
+
 
 ## The purpose of testing,
 
