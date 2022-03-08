@@ -5,8 +5,8 @@
 //If you use another LCD, type in the appropriate rows and columns below
 const int numRows= 4;
 const int numCols= 20;
-#define echoPin 11 // attach pin D2 Arduino to pin Echo of HC-SR04
-#define trigPin 13 //attach pin D3 Arduino to pin Trig of HC-SR04
+#define echoPin  10 // attach pin D2 Arduino to pin Echo of HC-SR04
+#define trigPin 9 //attach pin D3 Arduino to pin Trig of HC-SR04
 
 // defines variables
 long duration; // variable for the duration of sound wave travel
