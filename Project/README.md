@@ -173,6 +173,19 @@ The measurement  repeatability  and  stability  over  time  are  important  for 
 | 1	| Check for lcd (char)	| Distance cm	| Distance cm	| Distance cm |	Passed |
 | 2 | Check for lcd (String) |	Distance mm | Distance cm |	Distance cm	 | Passed |
 
+#5.3 OUTPUT
+ ## 5.3.1 SUBSYSTEM-1:Interfacing LCD WITH AURDINO
+ ![image](https://user-images.githubusercontent.com/46914341/157223707-f9ac2d5f-e076-45d9-8e99-19cbda5aac39.png)
+ 
+## 5.3.2 SUBSYSTEM-2:Interfacing ultrasonic sensor with Aurdino.
+![image](https://user-images.githubusercontent.com/46914341/157223856-81780dc8-2ae3-4be9-9548-5b8b03bcfbef.png)
+
+## 5.3.3 SUBSYSTEM-3:Interfacing Servo motor with Aurdino.
+![image](https://user-images.githubusercontent.com/46914341/157223964-0fdfa1d2-9811-4775-88d2-5ec5bc51966a.png)
+
+## 5.3.4 COMPLETE MODEL OF DISTANCE MEASUREMENT METER.
+![image](https://user-images.githubusercontent.com/46914341/157224081-77605245-95ab-4cb6-918f-f7b209f54b3e.png)
+
 
 ## The purpose of testing,
 
