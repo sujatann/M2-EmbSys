@@ -150,6 +150,10 @@ A servomotor is a rotary actuator / linear actuator that allows for precise cont
 • Testing
 The measurement  repeatability  and  stability  over  time  are  important  for determining the size of errors and corrections’ calculation. 
 
+## Assumptions:
+* While working this project in hardware mode the output can be seen so clearly as we bring the object near or far from the sensor.
+* Here in software mode i.e,in simulIDE also we can see the similar output by changing  the value of the variable the corresponding distance calculated also changes.
+
  5.1 HIGH LEVEL TEST PLAN/Unit test plan
 | Test ID |	Description |	Input	| Expected Output|	Actual Output	|Passed/Not |
 |---------|-------------|-----------|----------------|------------------|-----------|
@@ -187,7 +191,6 @@ The measurement  repeatability  and  stability  over  time  are  important  for 
 ![image](https://user-images.githubusercontent.com/46914341/157224081-77605245-95ab-4cb6-918f-f7b209f54b3e.png)
 
 
-## The purpose of testing,
 
 
 # 6.Applications:
