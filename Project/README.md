@@ -149,17 +149,29 @@ A servomotor is a rotary actuator / linear actuator that allows for precise cont
 # 5.Test plan and output.
 • Testing
 The measurement  repeatability  and  stability  over  time  are  important  for determining the size of errors and corrections’ calculation. 
+
+ 5.1 HIGH LEVEL TEST PLAN/Unit test plan
 | Test ID |	Description |	Input	| Expected Output|	Actual Output	|Passed/Not |
 |---------|-------------|-----------|----------------|------------------|-----------|
 | 1	| Distance | 2cm-400cm |The object is detected |	The object is detected	|Passed|
 | 2	| Lcd display	| Distance measure |	Distance measure |	Distance measure|	Passed|
 | 3	|Servo motor	|Rotates after detecting any object	|Rotates after detecting any object	|Rotates after detecting any object|	Passed|
 
+5.2 LOW LEVEL TEST PLAN/Unit test plan
 
 
 
+| Test ID(for lcd) | Description	| Input	| Expected Output |	Actual output	| Passed/not|
+|------------------|----------------|-------|-----------------|-----------------|-----------|
+| 1	| Check for lcd (char) | Distance Measure |	Distance Measure |	Distance Measure |	Passed |
+| 2 |Check for lcd (String)	| Circuit digest |	Circuit digest	| Circuit digest |	Passed |
 
+---
 
+| Test ID(for Ultrasonic sensor) | Description	| Input	| Expected Output |	Actual output | Passed/not |
+|--------------------------------|--------------|-------|-----------------|---------------|------------|
+| 1	| Check for lcd (char)	| Distance cm	| Distance cm	| Distance cm |	Passed |
+| 2 | Check for lcd (String) |	Distance mm | Distance cm |	Distance cm	 | Passed |
 
 
 ## The purpose of testing,
