@@ -133,12 +133,12 @@ It can  can be used to detect the door's position. For example, in refrigerators
 
 ## 4.6 Actuators.
 
-1. LCD(Liquid Crystal Display) : 
+1.LCD(Liquid Crystal Display) : 
 
 LCD is a type of flat panel display which uses liquid crystals in its primary form of operation.Here we have used (hd444780) lcd display for displayong the distance that is measured.
 
 
-2. Servo motor :
+2.Servo motor :
 
 A servomotor is a rotary actuator / linear actuator that allows for precise control of angular or linear position, velocity and acceleration. It consists of a suitable motor coupled to a sensor for position feedback. It also requires a relatively sophisticated controller, often a dedicated module designed specifically for use with servomotors. Servomotors are used in applications such as robotics, CNC machinery or automated manufacturing. A servomotor is a closed-loop servomechanism that uses position feedback to control its motion and final position. The motor is attached with the sensor to find the distance range around the sensor for 1800 rotations. The motor is controlled and interfaced with Arduino microcontroller to rotate in clockwise and anticlockwise.
 
@@ -149,6 +149,10 @@ A servomotor is a rotary actuator / linear actuator that allows for precise cont
 # 5.Test plan and output.
 • Testing
 The measurement  repeatability  and  stability  over  time  are  important  for determining the size of errors and corrections’ calculation. 
+
+## Assumptions:
+* While working this project in hardware mode the output can be seen so clearly as we bring the object near or far from the sensor.
+* Here in software mode i.e,in simulIDE also we can see the similar output by changing  the value of the variable the corresponding distance calculated also changes.
 
  5.1 HIGH LEVEL TEST PLAN/Unit test plan
 | Test ID |	Description |	Input	| Expected Output|	Actual Output	|Passed/Not |
@@ -187,7 +191,6 @@ The measurement  repeatability  and  stability  over  time  are  important  for 
 ![image](https://user-images.githubusercontent.com/46914341/157224081-77605245-95ab-4cb6-918f-f7b209f54b3e.png)
 
 
-## The purpose of testing,
 
 
 # 6.Applications:
